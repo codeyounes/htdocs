@@ -1,0 +1,50 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+
+
+}
+
+#pic {
+float:right;
+width:240px;
+height: 10px;
+margin-right:40px;
+position:absolute;
+left:0;
+top:0;
+
+}
+
+#suptrain{
+	color:yellow;
+}
+#navigation {
+	background-color:#ff532f;
+  height: 80px;
+
+
+}
+#aaronsnav{
+margin-left: 20px;
+color: White;
+}
+
+#button{
+  color: White;
+
+}
+#navbar a:hover{
+  background-color: #ff3300;
+}
+
+body {
+  background-image: url(media/4.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+}

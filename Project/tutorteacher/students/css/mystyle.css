@@ -1,0 +1,41 @@
+.mystyle
+{
+background-color:red!important;
+}
+
+.mystyle:hover
+{
+background-color:blue!important;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.list-group-item{
+  background-color: transparent !important;
+}
+#persons2{
+
+border: 0;
+}
+#persons3{
+  
+    border: 0;
+}
+
+.img-logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+  width: 250px;
+  height: 120px;
+}
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}

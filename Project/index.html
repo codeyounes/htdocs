@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="index" href="index.php">
+  </head>
+<body>
+
+  <div  class="header">
+<div class="amine">
+<button onclick="document.getElementById('id01').style.display='inline'" style="width:auto;">Login</button>
+</div>
+<div id="id01" class="modal">
+
+  <form class="modal-content animate" action="tutorteacher/index.html">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+    </div>
+
+    <div class="container2">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember">
+         Remember me</label>
+    </div>
+
+    <div class="container1" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+
+  <video autoplay muted loop id="myVideo">
+  <source src="media/video.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+  <nav class="navbar navbar-defaut">
+    <div class="navbar-header">
+      <a  href="https://www.lapinamk.fi/fiimg"><img src="media/lapinamklogo.jpg" class="img-responsive img-logo"></a>
+    </div>
+  </nav>
+
+
+ <div class="container">
+   <div class="col-md-6 text-center">
+    <div class="g">
+      <h1>SuPTrain–Supervision Tool for Practical Training</h1>
+      <h3 class="head">New Student</h3>
+      <p class="para">Get your account,from here<br/>and find your practical training</p>
+      <form action="#" class="login">
+        <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input type="text" class="from-control" placeholder="Username" size="35">
+       </div>
+	   <div class="input-group h">
+	    <span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+          <input type="email" class="from-control" placeholder="School Email" size="35">
+       </div>
+	   <div class="input-group">
+	    <span class="input-group-addon"><i class="fa fa-key" aria-hidden="true"></i></span>
+          <input type="password" class="from-control" placeholder="Password" size="35">
+       </div>
+	   <button class="btn btn-info">Sign up</button>
+     </form>
+	 <p>Already have an Account ?<a href="tutorteacher/index.html">Login</a></p>
+   </div>
+ </div>
+</div>
+
+
+
+
+<div class="main-footer">
+     <div class="myfooter">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-bg">
+             <!--addres-->
+             <div class="footer-adress">
+              <h1>Design <span>By</span> Razaki Younes</h1>
+              <h2>Lapland University of Applied Sciences
+                  Jokiväylä 11 C
+                  96300 Rovaniemi
+                  Finland</h2>
+              <h2>Lapin ammattikorkeakoulu Tornion kampus Minerva, Kauppakatu 58, 95400 Tornio</h2>
+             </div>
+              <!--addres-->
+              <!--email-phone-->
+              <div class="footer-email-phone">
+                <ul>
+                    <li><a href="tel:+35820 7986000"><i class="fa fa-phone"></i> +358 40 772 2939</a></li>
+                    <li><a href="Lapin services:firstname.lastname@lappia.fi"><i class="fa fa-envelope"></i>younes.razaki@lappia.fi</a></li>
+                </ul>
+              </div>
+              <!--email-phone-->
+
+              <!--social-icons-->
+               <div class="footer-social-icons">
+                <ul>
+                  <li><a href="#" target="_blank"> <i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" target="_blank"> <i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" target="_blank"> <i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#" target="_blank"> <i class="fa fa-youtube"></i></a></li>
+                  <li><a href="#" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+                </ul>
+
+               </div>
+
+              <!--social-icons-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<?php  $sup='';
+$pop='';
+$lol='';
+$com='';
+$dom='';
+if (isset($_POST['firstname']))$sup=$_POST['firstname'];
+if (isset($_POST['lastname']))$pop=$_POST['lastname'];
+if (isset($_POST['email']))$lol=$_POST['email'];
+if (isset($_POST['phonenumber']))$com=$_POST['phonenumber'];
+if (isset($_POST['password']))$dom=$_POST['password'];
+echo $sup;
+echo $pop;
+echo $lol;
+echo $com;
+echo $dom;

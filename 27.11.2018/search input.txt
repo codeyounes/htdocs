@@ -1,0 +1,4 @@
+&nbsp;
+<form id="frmFilter" class="form-inline my-2 my-lg-0">
+ <input id="myfilter" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+</form>

@@ -1,0 +1,5 @@
+{"persons":[
+	{"id":"1","firstname":"Anna","lastname":"Smith","status":"Married"},
+	{"id":"2","firstname":"John","lastname":"Doe","status":"Single"},
+	{"id":"3","firstname":"Mike","lastname":"Nesmith","status":"Married"}
+]}
